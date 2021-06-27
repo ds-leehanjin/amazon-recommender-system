@@ -15,7 +15,7 @@ Questions to address:
 
 ## Data Understanding and Preparation
 
-In this analysis, we use [Amazon review data](https://nijianmo.github.io/amazon/index.html) and [product metadata](http://deepyeti.ucsd.edu/jianmo/amazon/index.html) featured in the following paper:
+Special thanks to Jianmo Ni for providing [Amazon review data](https://nijianmo.github.io/amazon/index.html) and [product metadata](http://deepyeti.ucsd.edu/jianmo/amazon/index.html)  which are used for this analysis and are also featured in the following paper:
 
 **Justifying recommendations using distantly-labeled reviews and fined-grained aspects**
 
