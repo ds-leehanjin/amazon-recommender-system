@@ -29,11 +29,11 @@ Jianmo Ni, Jiacheng Li, Julian McAuley
 
 Let's first take a look at the distribution of our ratings as well as how many users gave how many ratings each.
 
-![png](output_25_0.png)
+![png](images/output_25_0.png)
     
 
 
-![png](output_29_0.png)
+![png](images/output_29_0.png)
     
 
 ## Data Modeling
@@ -48,7 +48,7 @@ The models we will look at are some K-Nearest Neighbor models and a series of gr
 
 Let's compare our test scores from all of the models that we fit in this analysis:
 
-![png](results.png)
+![png](images/results.png)
 
 We can see that by using gridsearches, we were able to make some improvements in the RMSE score between iterations. We also see that our final SVD model has a lower RMSE score than even our best performing KNN Baseline model, so we move forward to build our recommender system using the SVD model with the best parameters found in our final gridsearch. We can also see that our MAE score is 0.9230, meaning that in terms of rating stars, the average error of our model is off by 0.9230 stars from the actual rating.
 
@@ -395,7 +395,7 @@ Finally, let's take a look at what the top products were by selecting the top 10
 
 
 
-![png](output_148_0.png)
+![png](images/output_148_0.png)
     
 
 
