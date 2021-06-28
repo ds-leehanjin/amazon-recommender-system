@@ -653,4 +653,4 @@ To summarize, here are the final recommendations for our client:
 
 Although ALS has been proven to be an effective algorithm in recommender systems, it was surprising to see such a poor performance score with the data used in this analysis. Moving forward, it might be a worthwhile investigation to see how the model performs if we combine data from the "All Beauty" category with the data used in this analysis.
 
-For the full in-depth analysis, please refer to my [Jupyter Notebook](https://github.com/ds-leehanjin/amazon-recommender-system/blob/main/notebook.ipynb) or feel free to contact me at [lee.hanjin@gmail.com](mailto:lee.hanjin@gmail.com) with any questions.
+For the full in-depth analysis, please refer to my [Jupyter Notebook](https://github.com/ds-leehanjin/amazon-recommender-system/blob/main/notebook.ipynb) and [presentation](https://github.com/ds-leehanjin/amazon-recommender-system/blob/main/presentation.pdf) or feel free to contact me at [lee.hanjin@gmail.com](mailto:lee.hanjin@gmail.com) with any questions.
