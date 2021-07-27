@@ -3,6 +3,8 @@
 
 This analysis uses the Surprise package from scikit with Amazon review data of Luxury Beauty products to build a recommendation system. For this analysis, we will examine the performance of memory-based collaborative filtering in the form of K-Nearest Neighbors, as well as of model-based collaborative filtering in the form of Singular Value Decomposition. From our test results, we find that out of KNN methods and Singular Value Decomposition, Singular Value Decomposition was the best performing model for our selected data. We also examine what the optimal hyperparameters are for this particular dataset.
 
+![jpeg](images/amazon-beauty-products.jpeg)
+
 ## Business Problem
 
 Our client is a beauty product retailer that wants to build a recommender system for their new online platform using Amazon's ratings data, since they do not have enough of their own customer ratings data. In the process, we also want to find out what the most popular products on Amazon are, as well as what other products customers would be likely to give high ratings to, under the assumption that they would give high ratings to these popular products. We want to optimize a recommender system based on these Amazon reviews that as accurately as possible predicts other products that customers would be likely to enjoy. Using this optimized recommender system, we will move forward with the goal of using our client's customer preferences to extract insights into what other brands/products would be successful if our client were to add them to their product offering.
